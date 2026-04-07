@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Q4 Seatwork 1</title>
+
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+    <style>
+        body{
+            background-image: url(https://img.freepik.com/free-vector/trendy-retro-synth-line-perspective-wallpaper-with-smoke-effect_1017-43048.jpg?semt=ais_hybrid&w=740&q=80);
+            background-repeat: no-repeat;
+            background-size: cover;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .box{
+            background:#5c6cff;
+            padding:20px;
+            border-radius:50px;
+            width:350px;
+            height: 450px;
+            margin:auto;
+            margin-top:70px;
+            color:rgb(0, 0, 0);
+        }
+
+        button{
+            background:#aa228f;
+            padding: 15px;
+            border-radius:5px;
+        }
+
+        input{
+            padding:5px;
+            width:200px;
+        }
+
+        h2{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        label{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="box text-center">
+
+    <form>
+    <h2> 🎮Log In</h2>
+    <p>Please enter your account details</p>
+    <label>Username</label><br><br>
+    <input type="text" id="user" placeholder="Enter Username"><br><br>
+    <label>Password</label><br><br>
+    <input type="password" id="pass" placeholder="Enter Password"><br><br>
+    <div class="mb-3">
+    <input type="checkbox" class="form-check-input"> Stay logged in
+    </div>
+    <button onclick="log_in()">Log In</button>
+    </form>
+    <script src="main.js"></script>
+
+
+</body>
+</html>
